@@ -1,0 +1,7 @@
+
+TODO:
+* Re-run sprinTest.py with new code
+
+
+TO RENDER VIDEOS:
+ffmpeg -an -i /usr/tmp/cod_vdw.%05d.ppm -vcodec mpeg4 -r 30 -b:v 5550k -vframes 240 /usr/tmp/cod_vdw.mp4
